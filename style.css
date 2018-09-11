@@ -1,0 +1,92 @@
+@keyframes maybe {
+    from { 
+        color: yellow;
+    }
+    to {
+        color: magenta;
+    }
+}
+@keyframes yes {
+    from {
+        color:orangered;
+    }
+    to {
+        color: mediumspringgreen;
+    }
+}
+
+@keyframes no {
+    from{
+        color:blue;
+    }
+    to {
+        color: coral;
+    }
+
+}
+
+.cancer {
+    animation-name: yes;
+    animation-duration: .05s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.cancer:hover {
+    transform: scale(1.5);
+}
+
+.hotdogs {
+    background-image: url("http://cdn.foodbeast.com/content/uploads/2016/05/Shitty-Food-Porn-4.jpg");
+    background-size: cover;
+    transition: all .5 ease;
+    background-position: center;
+    height: 300px;
+}
+
+.bananas {
+    background-image: url("https://i.dailymail.co.uk/i/pix/2017/05/19/15/408B03DF00000578-4522648-image-a-96_1495204737220.jpg");
+    background-size: cover;
+    transition: all .5 ease;
+    background-position: center;
+    height: 300px;
+}
+
+body {
+    font-family: "Comic Sans MS";
+}
+
+.center {
+    animation-name: no;
+    animation-duration: .05s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+.right {
+    animation-name: maybe;
+    animation-duration: .05s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    text-align: right;
+}
+
+.border {
+    border-style: double dotted groove dashed;
+    border-width: 48px;
+    border-color: brown;
+}
+
+.size {
+    font-size: 64px;
+}
+
+
+.jello {
+    background-image: url("https://www.chaostrophic.com/wp-content/uploads/2015/12/f2ceadb31ec3b59ff629dca125a40cc51.jpg");
+    background-size: cover;
+    transition: all .5 ease;
+    background-position: center;
+    height: 300px;
+}
